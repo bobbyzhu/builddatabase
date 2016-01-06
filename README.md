@@ -14,7 +14,8 @@
 	*	[Yahoo 的 omid 事务模型](omid/README.md)
 	*	[TiDB 的分布式事务模型]
 	*	[TiDB 的源码结构]
-	*	[如何参与 TiDB 开源项目]
+	*	[如何参与 TiDB 开源项目](howto/README.md)
+	*	[如何添加新的 key value 存储引擎](tidb/storage.md)
 	
 *	第三章 SQL解析
 	*	[词法分析与 golex 用法]
@@ -22,7 +23,7 @@
 		*	[通过案例看解决Reduce/Reduce冲突](https://github.com/pingcap/tidb/pull/589/files)
 		*	[通过案例看如何解决Shift/Reduce冲突](https://github.com/pingcap/tidb/pull/128/files)
 	*	[解析整个语句的执行流程]
-	*	[案例：为 TiDB 添加一个新的函数]
+	*	[案例：为 TiDB 添加一个新的函数](tidb/builtin.md)
 	*	[案例：为 TiDB 添加一个语句]
 	*	[思考：如何支持 json/protocol buffer]
 	
@@ -44,8 +45,7 @@
 	*	[TiDB 优化器代码分析]
 	
 *	第六章 分布式 SQL 数据库的异步 Schema 变更 	
-	*	[为什么在分布式系统中异步变更 schema 比较困难]
-	* 	[深度剖析 Google F1 的 schema 变更算法]
+	* 	[深度剖析 Google F1 的 schema 变更算法](f1/schema-change.md)
 	*	[TiDB 的异步 schema 变更实现]
 		
 *	第七章 高级
@@ -53,3 +53,5 @@
 	*	[深入分析 Spanner 那些相关的论文]
 	*	[一些新的论文和技术讨论]
 
+*	第八章 实现一个分布式key-value引擎
+	*	[raft 协议介绍]
